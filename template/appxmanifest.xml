@@ -11,7 +11,7 @@
     <DisplayName>${packageDisplayName}</DisplayName>
     <PublisherDisplayName>${publisherDisplayName}</PublisherDisplayName>
     <Description>No description entered</Description>
-    <Logo>resources\assets\icons\png\50x50.png</Logo>
+    <Logo>app\resources\assets\icons\png\50x50.png</Logo>
   </Properties>
   <Resources>
     <Resource Language="en-us" />
@@ -27,10 +27,10 @@
       <uap:VisualElements
        BackgroundColor="${packageBackgroundColor}"
        DisplayName="${packageDisplayName}"
-       Square150x150Logo="resources\assets\icons\png\150x150.png"
-       Square44x44Logo="resources\assets\icons\png\44x44.png"
+       Square150x150Logo="app\resources\assets\icons\png\150x150.png"
+       Square44x44Logo="app\resources\assets\icons\png\44x44.png"
        Description="${packageDescription}">
-        <uap:DefaultTile Wide310x150Logo="resources\assets\icons\png\310x150.png" />
+        <uap:DefaultTile Wide310x150Logo="app\resources\assets\icons\png\310x150.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
